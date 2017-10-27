@@ -1,0 +1,9 @@
+builds:
+  - binary: journald-cloudwatch-logs
+    goos:
+      - windows
+      - darwin
+      - linux
+      - freebsd
+    goarch:
+      - amd64
